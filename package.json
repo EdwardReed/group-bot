@@ -1,39 +1,18 @@
 {
-    "name": "group-bot",
-    "version": "0.1.0",
-    "author": "Edward II",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/EdwardReed/group-bot.git"
-    },
-    "dependencies": {
-        "q": "",
-        "underscore": ""
-    },
-    "devDependencies": {
-        "blanket": "",
-        "chai": "",
-        "coffee-script": "",
-        "glob": "",
-        "grunt": "",
-        "grunt-contrib-coffee": "",
-        "grunt-contrib-watch": "",
-        "grunt-merge": "",
-        "grunt-mocha-test": "",
-        "grunt-release": "",
-        "grunt-rename": "",
-        "grunt-text-replace": "",
-        "mocha": "",
-        "prompt": "",
-        "source-map-support": "",
-        "sinon": ""
-    },
-    "bin": {
-        "group-bot": "./bin/group-bot"
-    },
-    "license": "MIT",
-    "main": "./lib/group-bot.js",
-    "scripts": {
-        "test": "mocha test/test.js --reporter spec"
-    }
+  "name": "group-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.10.2",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.1.1",
+    "express": "~4.11.1",
+    "jade": "~1.9.1",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0",
+    "fancy-groupme-bot": "^0.1.3"
+  }
 }
