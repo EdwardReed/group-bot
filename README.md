@@ -1,6 +1,6 @@
 ##GroupBot
 
-A simple [**Group Me Bot**](https://fast-hamlet-9749.herokuapp.com/)
+A simple [**Group Me Bot**](https://fast-hamlet-9749.herokuapp.com/).
 
 ###Goals
 
