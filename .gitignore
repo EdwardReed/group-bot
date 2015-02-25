@@ -4,3 +4,4 @@ node_modules
 test/coverage/coverage.html
 test/fixture
 tmp
+envs/*.sh

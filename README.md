@@ -10,7 +10,16 @@ A simple Group Me Bot
 * Photo-Bomb 
 * Calendar Events 
 
-### Enviroment Keys
+### Setup
+Create a "envs/development.sh" with the following(**Update GroupMe tokens):
+  #!/usr/bin/env bash
+  __DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  source ${__DIR}/_default.sh
+  # Based on _default ---^
 
-	GROUPME_TOKEN
-  GROUPME_CALLBACK_URL
+  export DEPLOY_ENV="$(basename "${BASH_SOURCE[0]}" .sh)"
+  export NODE_ENV="development"
+  export DEBUG=*:*
+
+  export GROUPME_TOKEN="groupme-token-here"
+  export GROUPME_CALLBACK_URL="your-callback-url-here" 
