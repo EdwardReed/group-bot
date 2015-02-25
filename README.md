@@ -24,3 +24,13 @@ Create a "envs/development.sh" with the following:
   export GROUPME_TOKEN="groupme-token-here" // Update Token
   export GROUPME_CALLBACK_URL="your-callback-url-here" //Update Callback-Url
 ```
+Run:
+```
+npm install
+npm update
+```
+To start node server run:
+```
+npm start
+```
+### Righto
