@@ -1,6 +1,6 @@
-Common = require("../../lib/node-template/common")
+Common = require("../../lib/group-bot/common")
 
-describe 'NodeTemplate::Common', ->
+describe 'GroupBot::Common', ->
   describe '#defer', ->
     it 'should resolve', (done) ->
       fn = ->
