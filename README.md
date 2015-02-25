@@ -33,4 +33,4 @@ To start node server run:
 ```
 npm start
 ```
-### Righto
+### Righto!
