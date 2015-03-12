@@ -5,8 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+var routes   = require('./routes/index');
+var yo       = require('./routes/yo');
+var users    = require('./routes/users');
 
 var app = express();
 
@@ -23,6 +24,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
+app.use('/yo', yo);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -56,5 +58,6 @@ app.use(function(err, req, res, next) {
     });
 });
 
+api_request = function(request) { return "https://api.groupme.com/v3/" + request + "/token=995795509f0301322d9856c3c60969c5" }
 
 module.exports = app;
