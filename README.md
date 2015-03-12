@@ -33,4 +33,5 @@ To start node server run:
 ```
 npm start
 ```
-### Righto
+### Righto!
+See [**Fancy GroupMe API wrapper**](https://github.com/cmcavoy/fancy-groupme-bot) and [**GroupMe API**](https://dev.groupme.com/docs/v3) to get started developing.
